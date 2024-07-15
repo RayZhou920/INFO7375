@@ -22,7 +22,7 @@
 2. **Interact with Llama3:**
    - You can prompt questions in the shell. For example:
      ```shell
-     Why is the sky blue?
+     Why the banana is yellow?
      ```
    - To quit the conversation mode, type:
      ```shell
@@ -34,7 +34,7 @@
      ```bash
      curl http://localhost:11434/api/generate -d '{
        "model": "llama3",
-       "prompt": "Why is the sky blue?"
+       "prompt": "Why the banana is yellow?"
      }'
      ```
    - The response will be split into single words and sent back to you in many lines of JSON.
@@ -44,7 +44,7 @@
      ```bash
      curl http://localhost:11434/api/generate -d '{
        "model": "llama3",
-       "prompt": "Why is the sky blue?",
+       "prompt": "Why the banana is yellow?",
        "stream": false
      }'
      ```
@@ -66,14 +66,14 @@
      ```bash
      curl http://localhost:11434/api/generate -d '{
        "model": "gemma:2b",
-       "prompt": "Why is the sky blue?"
+       "prompt": "Why the banana is yellow?"
      }'
      ```
    - To disable the streaming response, use this command:
      ```bash
      curl http://localhost:11434/api/generate -d '{
        "model": "gemma:2b",
-       "prompt": "Why is the sky blue?",
+       "prompt": "Why the banana is yellow?",
        "stream": false
      }'
      ```
