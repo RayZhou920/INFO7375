@@ -1,4 +1,10 @@
+
+
 # Llama3 and Gemma Model Setup Instructions
+
+## Youtube recording link
+https://youtu.be/d01A1caYCG8
+https://youtu.be/X_S02HiaP20
 
 ## Prerequisites
 
